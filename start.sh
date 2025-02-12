@@ -7,4 +7,4 @@ sudo ifconfig eth0 down ;
 sudo macchanger eth0 -A; 
 sudo macchanger eth0 -rb ; 
 sudo ifconfig eth0 up ;  
-sudo openvpn veepeeen.ovpn 
+sudo openvpn --auth-nocache veepeeen.ovpn 
