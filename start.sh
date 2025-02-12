@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /etc/openvpn ;
-sudo mv /home/kali/start/virtpncon.ovpn /etc/ovpn ; 
+sudo mv /home/kali/start/virtpncon.ovpn /etc/openvpn ; 
 sudo chmod 664 virtpncon.ovpn ;
 sudo ifconfig eth0 down ; 
 sudo macchanger eth0 -A; 
