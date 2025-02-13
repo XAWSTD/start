@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd /etc/openvpn ;
-sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip ;
-sudo unzip openvpn.zip ; 
-sudo openvpn --auth-nocache us_texas.ovpn
+sudo mv /home/kali/start/virtpncon.ovpn /etc/openvpn/veepeeen.ovpn ; 
+sudo chmod 664 veepeeen.ovpn ;
+sudo openvpn --auth-nocache veepeeen.ovpn 
